@@ -28,4 +28,5 @@ public class FibonacciTest {
     void 入力された整数に対するフィボナッチ数列を返却する(int num, int expected) {
         assertEquals(expected, fibonacci.fn(num));
     }
+
 }
